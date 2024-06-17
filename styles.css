@@ -1,0 +1,276 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  height: 100vh;
+  margin: 0;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+#about {
+  max-width: 400px;
+}
+.card {
+  background-color: #bed9be;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  max-width: 300px;
+  max-height: 800px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.job-title {
+  color: #020c40;
+  margin: 5px 0 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom {
+  padding: 20px;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.project a {
+  text-decoration: none;
+  color: #333;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.project p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.project ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.project ul li {
+  background: #e0f7fa;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #00796b;
+  display: inline-block;
+}
+
+/* Adding some additional styling for the project source code link */
+.buttonStyle {
+  display: inline-block;
+  background-color: #00796b;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.buttonStyle:hover {
+  background-color: #004d40;
+}
+
+/* Mobile Devices (Portrait and Landscape) */
+@media (max-width: 600px) {
+  .top {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #about {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .card {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .profile-pic img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .job-title {
+    font-size: 16px;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+
+  .social-icons a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .project img {
+    max-width: 100%;
+  }
+
+  .project h3 {
+    font-size: 20px;
+  }
+
+  .project p {
+    font-size: 14px;
+  }
+}
+
+/* Tablets (Portrait) */
+@media (min-width: 600px) and (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #about {
+    max-width: 80%;
+    padding: 15px;
+  }
+
+  .card {
+    max-width: 80%;
+    padding: 15px;
+  }
+
+  .profile-pic img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .job-title {
+    font-size: 18px;
+  }
+
+  .social-icons {
+    gap: 12px;
+  }
+
+  .social-icons a img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .project img {
+    max-width: 90%;
+  }
+
+  .project h3 {
+    font-size: 22px;
+  }
+
+  .project p {
+    font-size: 15px;
+  }
+}
+
+/* Tablets (Landscape) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .top {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  #about {
+    max-width: 70%;
+  }
+
+  .card {
+    max-width: 70%;
+  }
+
+  .profile-pic img {
+    max-width: 180px;
+    max-height: 180px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .job-title {
+    font-size: 20px;
+  }
+
+  .social-icons {
+    gap: 15px;
+  }
+
+  .social-icons a img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .project img {
+    max-width: 80%;
+  }
+
+  .project h3 {
+    font-size: 24px;
+  }
+
+  .project p {
+    font-size: 16px;
+  }
+}

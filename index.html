@@ -7,44 +7,121 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Mekbib Tarekegn</h1>
-      <p>Full Stack Web Developer</p>
-      <a href="https://github.com/mekbibisdone">
-        <img src="github-mark.svg" alt="github icon" width="48"
-      /></a>
-      <a href="https://t.me/realmekbib">
-        <img src="Telegram_logo.svg" alt="telegram icon" width="48" />
-      </a>
-    </header>
+    <div class="top">
+      <header>
+        <div class="card">
+          <div class="profile-pic">
+            <img src="profile-pic.jpg" alt="Profile Picture" />
+          </div>
+          <h2>Mekbib Tarekegn</h2>
+          <p class="job-title">Full Stack Web Developer</p>
+          <div class="social-icons">
+            <a href="https://github.com/mekbibisdone"
+              ><img src="icons/github.svg" alt="GitHub"
+            /></a>
+            <a href="https://t.me/realmekbib"
+              ><img src="icons/telegram.svg" alt="Telegram"
+            /></a>
+            <a href="mailto:mekbibdevwork@gmail.com"
+              ><img src="icons/gmail.svg" alt="Gmail"
+            /></a>
+          </div>
+          <a href="tel:251928440178">+251928440178</a>
+        </div>
+      </header>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Hello! I'm John Doe, a passionate programmer with expertise in web
-        development and software engineering. I enjoy creating efficient and
-        scalable solutions.
-      </p>
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>React, MongoDB, Node.js, Express</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Project One</h3>
-        <p>Description of project one. <a href="#">View on GitHub</a></p>
-      </div>
-      <div class="project">
-        <h3>Project Two</h3>
-        <p>Description of project two. <a href="#">View on GitHub</a></p>
-      </div>
-    </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm interested in Web Development and Machine Learning. If you wanna hire me or want to collaborate with me, feel free to contact me.
+        </p>
+      </section>
+    </div>
+    <div class="bottom">
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project pictures/inventory.png" width="400px" />
+            <a href="https://gadget-inventory.on.mekbibisdone.com/"
+              ><h3>Inventory application</h3></a
+            >
+            <p>
+                Developed a secure Inventory Management System featuring image uploads for each item. Updates or deletions require an access code generated during item creation, ensuring only authorized changes.<a class="buttonStyle"
+                href="https://github.com/mekbibisdone/inventory-application"
+                >Source code</a
+              >
+              <a  class="buttonStyle" href="https://gadget-inventory.on.mekbibisdone.com/">Live</a>
+              <ul>Tools used
+                  <li>ExpressJs</li>
+                  <li>Pug(template language)</li>
+                  <li>MongoDb</li>
+                  <li>Javascript</li>
+                  <li>CSS</li>
+              </ul>
+              
+            </p>
+          </div>
+        <div class="project">
+          <img src="project pictures/membersonly.png" width="400px" />
+          <a href="https://members-only.on.mekbibisdone.com/"
+            ><h3>Members only</h3></a
+          >
+          <p>
+            Developed a secure members-only webpage where users can sign up and
+            post messages. Access to view other members' identities requires a
+            secret code, ensuring privacy and exclusivity.( secret code is
+            letsgo)<a class="buttonStyle"
+              href="https://github.com/mekbibisdone/members-only"
+              >Source code</a
+            >
+            <a  class="buttonStyle" href="https://members-only.on.mekbibisdone.com/">Live</a>
+            <ul>Tools used
+                <li>ExpressJs</li>
+                <li>Pug(template language)</li>
+                <li>MongoDb</li>
+                <li>TypeScript</li>
+                <li>CSS</li>
+            </ul>
+          </p>
+        </div>
+        <div class="project">
+            <img src="project pictures/rickandmorty.png" width="400px" />
+            <a href="https://rick-and-morty-memorial.vercel.app/"
+              ><h3>Rick and morty memory card game</h3></a
+            >
+            <p>
+                Developed a Rick and Morty themed memory card game using React. This interactive game features dead characters which where fetched from an API and presented as cards to test if you can remember them.<a class="buttonStyle"
+                href="https://github.com/mekbibisdone/rick-and-morty-memorial"
+                >Source code</a
+              >
+              <a  class="buttonStyle" href="https://rick-and-morty-memorial.vercel.app/">Live</a>
+              <ul>Tools used
+                  <li>React</li>
+                  <li>Api</li>
+                  <li>CSS</li>
+              </ul>
+            </p>
+          </div>
+          <div class="project">
+            <img src="project pictures/battleship.png" width="400px" />
+            <a href="https://mekbibisdone.github.io/battleship/"
+              ><h3>Battleship</h3></a
+            >
+            <p>
+                Developed a classic Battleship game using vanilla JavaScript with a focus on test-driven development (TDD). The game features an intuitive interface, AI opponent, real-time feedback, and a robust grid system, ensuring a seamless and engaging user experience.<a class="buttonStyle"
+                href="https://github.com/mekbibisdone/battleship"
+                >Source code</a
+              >
+              <a  class="buttonStyle" href="https://mekbibisdone.github.io/battleship/">Live</a>
+              <ul>Tools used
+                  <li>Vanilla JS</li>
+                  <li>CSS</li>
+                  <li>WebPack</li>
+                  <li>TDD</li>
+              </ul>
+            </p>
+          </div>
+      </section>
+    </div>
   </body>
 </html>
