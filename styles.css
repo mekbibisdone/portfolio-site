@@ -15,6 +15,13 @@ h1 {
   gap: 20px;
   padding: 20px;
 }
+
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 #about {
   max-width: 400px;
 }
@@ -63,7 +70,9 @@ h2 {
 .project {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
+  max-width: 400px;
 }
 
 .project img {
