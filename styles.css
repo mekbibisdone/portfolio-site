@@ -10,23 +10,23 @@ h1 {
 .top {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
 }
-
-#projects {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+header h1,
+a {
+  color: white;
 }
 #about {
   max-width: 400px;
 }
+#about h1 {
+  text-align: center;
+}
 .card {
-  background-color: #bed9be;
+  background-color: #00796b;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -34,7 +34,6 @@ h1 {
   max-width: 300px;
   max-height: 800px;
 }
-
 .profile-pic img {
   border-radius: 50%;
   max-width: 200px;
@@ -48,7 +47,7 @@ h2 {
 }
 
 .job-title {
-  color: #020c40;
+  color: white;
   margin: 5px 0 20px;
 }
 
@@ -67,6 +66,14 @@ h2 {
 .bottom {
   padding: 20px;
 }
+
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project {
   display: flex;
   flex-direction: column;
@@ -245,7 +252,7 @@ h2 {
   }
 
   .card {
-    max-width: 70%;
+    max-width: 100%;
   }
 
   .profile-pic img {
